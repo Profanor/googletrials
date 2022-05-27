@@ -6,14 +6,20 @@ h1 {
 }
 
 #input1 {
-    width: auto;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-color: black;
-    border-radius: 30px 30px 30px 30px;
-    box-sizing: border-box;
+    width: 130px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+#input1 {
+    transition: width 0.4s ease-in-out;
+}
+
+#input1:focus {
+    width:100%
 }
 
 .box {
@@ -24,3 +30,18 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.input-icons {
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.input-icons i {
+    position:absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+ 
